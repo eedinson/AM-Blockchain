@@ -56,8 +56,7 @@
 <!-- ABOUT THE GITHUB Repo -->
 ## About The Repository
 
-This Github repository is used to document and validate the AM blockchain concept.
-
+This Github repository is used to document and validate the AM blockchain concept.<br />
 Accordingly, the main tasks of this repository are:
 * validation and documentation of the process flow of the AM part record
 * documentation of the program code
@@ -101,4 +100,39 @@ More information on:
   
 
 
+<!-- ROADMAP -->
+## Roadmap
 
+This section lists tasks that have already been developed as part of the paper and documented in this repository, as well as tasks that need further development.
+
+- [x] Development of a concept for an AM part record
+- [x] Development and prototypical implementation of a dApp
+- [x] Elaboration of an architecture as well as set-up of process flows for a blockchain-based digital AM part record.
+- [x] Program, deploy and publish a corresponding smart contract that maps all the necessary functionalities.
+- [x] Implementation, testing and validation of the proposed AM part record solution.
+- [ ] Adding and further developing of frontend and backend functionalities.
+- [ ] Development of a mature and tested overall software solution.
+
+See the [open issues](https://github.com/eedinson/AM-Blockchain/issues) for a full list of proposed features (and known issues).
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+<!-- LICENSE -->
+## License
+
+Distributed under the MIT License. See `LICENSE.txt` for more information.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+<!-- CONTACT -->
+## Contact
+
+Erik Westphal - [@LinkedIn](https://linkedin.com/in/erik-westphal-706a35223) - erik.westphal@uni-rostock.de
+
+Project Link: [https://github.com/eedinson/AM-Blockchain](https://github.com/eedinson/AM-Blockchain)
+
+<p align="right">(<a href="#top">back to top</a>)</p>

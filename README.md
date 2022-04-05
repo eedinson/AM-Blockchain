@@ -87,16 +87,16 @@ This section list any major frameworks/libraries used to develop the AM Blockcha
 
 This repository is specially structured. Currently we are on the introduction/readme page.<br />
 More information on:
-* Validation and documentation of the AM Blockchain
+* Validation and documentation of the AM Blockchain<br />
   [Documentation](https://github.com/eedinson/AM-Blockchain/blob/main/documentation/docs.md)
   
-* Documentation of program codes
+* Documentation of program codes<br />
   [Code](https://github.com/eedinson/AM-Blockchain/tree/main/code)
 
-* Documentation of images
+* Documentation of images<br />
   [Images](https://github.com/eedinson/AM-Blockchain/tree/main/images)
   
-* Documentation of data and files
+* Documentation of data and files<br />
   [Data](https://github.com/eedinson/AM-Blockchain/tree/main/data)
   
 

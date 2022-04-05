@@ -12,14 +12,14 @@
   <p align="center">
     Detailed documentation of an AM part record, which is presented in a scientific paper.
     <br />
-    <a href="https://github.com/eedinson/SupplyChain_TestnetDeploy"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/eedinson/AM-Blockchain/blob/main/documentation/docs.md"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/eedinson/SupplyChain_TestnetDeploy">View paper</a>
+    <a href="https://doi.org/10.1016/j.addma.2021.101965">View paper</a>
     ·
-    <a href="https://github.com/eedinson/SupplyChain_TestnetDeploy/issues">Report Bug</a>
+    <a href="https://github.com/eedinson/AM-Blockchain/issues">Report bug</a>
     ·
-    <a href="https://github.com/eedinson/SupplyChain_TestnetDeploy/issues">Request Feature</a>
+    <a href="https://github.com/eedinson/AM-Blockchain/pulls">Pull requests</a>
   </p>
 </div>
 
@@ -30,7 +30,7 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
+      <a href="#about-the-repository">About The Repository</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
       </ul>
@@ -54,17 +54,51 @@
 
 
 <!-- ABOUT THE GITHUB Repo -->
-## About The Github Repository
+## About The Repository
 
-This Github repository is developed for documentation, validation and testing purposes of the AM Blockchain concept.
+This Github repository is used to document and validate the AM blockchain concept.
 
-Here are some benefits for usage:
-* Decentrlized data storage
-* Transparent data
-* Immutable information
+Accordingly, the main tasks of this repository are:
+* validation and documentation of the process flow of the AM part record
+* documentation of the program code
+* publication of additional information about the [paper](https://doi.org/10.1016/j.addma.2021.101965)
 
-More explanations will follow.
-
-Use the `SupplyChain_deployedRopstenBuild.sol` to get started.
+Further explanations can be found in the linked paper.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+### Built With
+
+This section list any major frameworks/libraries used to develop the AM Blockchain.
+
+* [Solidity](https://docs.soliditylang.org/en/v0.8.11/)
+* [Remix](http://remix.ethereum.org/)
+* [Ropsten Etherscan](https://ropsten.etherscan.io/)
+* [Metamask](https://metamask.io/)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+<!-- GETTING STARTED -->
+## Getting Started
+
+This repository is specially structured. Currently we are on the introduction/readme page.<br />
+More information on:
+* Validation and documentation of the AM Blockchain
+  [Documentation](https://github.com/eedinson/AM-Blockchain/blob/main/documentation/docs.md)
+  
+* Documentation of program codes
+  [Code](https://github.com/eedinson/AM-Blockchain/tree/main/code)
+
+* Documentation of images
+  [Images](https://github.com/eedinson/AM-Blockchain/tree/main/images)
+  
+* Documentation of data and files
+  [Data](https://github.com/eedinson/AM-Blockchain/tree/main/data)
+  
+
+
+

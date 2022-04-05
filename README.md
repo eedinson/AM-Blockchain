@@ -10,7 +10,7 @@
   <h3 align="center">AM Blockchain</h3>
 
   <p align="center">
-    Detailed documentation of an AM part record, which is presented in a scientific paper.
+    Detailed documentation of an AM part record presented in a scientific paper associated with this repository.
     <br />
     <a href="https://github.com/eedinson/AM-Blockchain/blob/main/documentation/docs.md"><strong>Explore the docs »</strong></a>
     <br />
@@ -35,19 +35,10 @@
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
+    <li><a href="#getting-started">Getting Started</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
@@ -87,7 +78,7 @@ This section list any major frameworks/libraries used to develop the AM Blockcha
 This repository is specially structured. Currently we are on the introduction/readme page.<br />
 More information on:
 * Validation and documentation of the AM Blockchain<br />
-  [Documentation](https://github.com/eedinson/AM-Blockchain/blob/main/documentation/docs.md)
+  [Documentation](https://github.com/eedinson/AM-Blockchain/tree/main/documentation)
   
 * Documentation of program codes<br />
   [Code](https://github.com/eedinson/AM-Blockchain/tree/main/code)

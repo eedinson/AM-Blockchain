@@ -122,7 +122,7 @@ See the [open issues](https://github.com/eedinson/AM-Blockchain/issues) for a fu
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+Distributed under the MIT License. See the [LICENSE](https://github.com/eedinson/AM-Blockchain/blob/main/LICENSE) for more information.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 

@@ -63,6 +63,9 @@ Further explanations can be found in the linked paper.
 
 This section list any major frameworks/libraries used to develop the AM Blockchain.
 
+* [Ubuntu Linux](https://ubuntu.com/)
+* [Flask](https://flask.palletsprojects.com/en/2.1.x/)
+* [Bootstrap](https://getbootstrap.com/)
 * [Solidity](https://docs.soliditylang.org/en/v0.8.11/)
 * [Remix](http://remix.ethereum.org/)
 * [Ropsten Etherscan](https://ropsten.etherscan.io/)

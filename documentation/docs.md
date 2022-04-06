@@ -13,7 +13,7 @@
 <details>
   <summary>Table of Contents</summary>
   <ol>
-    <li><a href="#Information on the associated paper">Information on the associated paper</a></li>
+    <li><a href="#Information-on-the-associated-paper">Information on the associated paper</a></li>
     <li><a href="#Goals to be achieved with the AM Blockchain">Goals to be achieved with the AM Blockchain</a></li>
     <li><a href="#Architecture of the AM Blockchain solution">Architecture of the AM Blockchain solution</a></li>
     <li><a href="#Preliminary definitions">Preliminary definitions</a></li>

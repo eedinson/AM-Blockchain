@@ -110,4 +110,4 @@ Within the AM Blockchain concept, the following aspects are defined:
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
-[architecture]: images/AMBlockchain_Architecture.jpg
+[architecture]: https://github.com/eedinson/AM-Blockchain/blob/main/images/AMBlockchain_Architecture.jpg

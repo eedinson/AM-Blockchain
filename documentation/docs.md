@@ -45,13 +45,13 @@ DOI: &ensp;&emsp;&emsp;     gfdghgh<br />
 <!-- GOALS -->
 ## Goals to be achieved with the AM Blockchain
 
-Durch die neue AM Bauteilakte soll eine Qualitätssteigerung bei der additiven Fertigung erzielt werden. Die Umsetzung konkreter Ziele ermöglicht dabei eine Bewertung der Qualitätssteigung im Vergleich zu konventionellen Qualitätsmanagement- und Qualitätssicherungslösungen. Die mit der AM Blockchain zu erreichenden Ziele sind dabei:
-* Eine Digitalisierung und dezentrale Dokumentation konventioneller Qualitätsdokumentationsprozesse des FDM Prozesses wie bspw. papierbasierte Vorbereitungsprotokolle, Materialzertifikate, Bedienernachweise etc.
-* Eine umsetzbare, funktionale und wirtschaftliche Alternative zu aktuell gängigen Lösungen.
-* Eine kompakte Dokumentation von ML-basierten Fertigungsdatenanalysen während des Druckprozesses.
-* Eine ganzheitliche, detailliert nachvollziehbare und fälschungssichere Dokumentation der gesamten Wertschöpfungskette sowie des Informationsflusses.
-* Eine Lösung zur ortsunabhängigen und zeitigen Aktualisierung von Fertigungs- und Qualitätsinformationen für alle beteiligten Parteien.
-* Eine Möglichkeit zur einfachen und schnellen Bauteilzertifizierung.
+The new AM part record is designed to increase the quality of additive manufacturing processes. In doing so, the implementation of concrete goals enables an evaluation of the quality increase compared to conventional quality management and quality assurance solutions. The goals to be achieved with the AM blockchain are thereby:
+* A digital and decentralized documentation of the conventional quality documentation processes of the FDM process such as paper-based preparation protocols, material certificates, operator logs etc.
+* A viable, functional and economical alternative to current solutions.
+* A compact documentation of ML-based manufacturing data analysis during the printing process.
+* A holistic, detailed traceable and forgery-proof documentation of the entire value chain as well as the information flow.
+* A solution for location-independent and timely updating of manufacturing and quality information for all parties involved.
+* A way to enable easier and faster part certification.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -60,10 +60,10 @@ Durch die neue AM Bauteilakte soll eine Qualitätssteigerung bei der additiven F
 <!-- ARCHITECTURE -->
 ## Architecture of the AM Blockchain solution
 
-Title:    Development of a blockchain-based quality assurance concept for a digital additive manufacturing part record
-Authors:  Erik Westphal, Hermann Seitz, Benjamin Leiding, Max Muster
-Journal:  ksdjbfd
-DOI:      gfdghgh
+The architecture and process flow for implementing digital manufacturing documentation based on the AM Blockchain are shown below:
+
+![Architecture][Architecture]
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -106,3 +106,8 @@ Within the AM Blockchain concept, the following aspects are defined:
   `OrderAcceptDeliveryCustomer` `OrderCompleteDeliveryCustomer` `OrderReceivedDeliveryCustomer`<br />
 * Customer decision sequence<br />
   `OrderAccepted` `OrderDeclined`
+
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+[Architecture]: images/AMBlockchain_Architecture.jpg

@@ -20,7 +20,7 @@
     <li>
       <a href="#Process-documentation">Process documentation</a>
       <ul>
-        <li><a href="#Create-part-record">Prerequisites</a></li>
+        <li><a href="#Create-part-record">Create part record</a></li>
         <li><a href="#Enter-quality-related-information">Enter quality-related information</a></li>
       </ul>
     </li>
@@ -139,6 +139,62 @@ Within the AM Blockchain concept, the following aspects are defined:
   `OrderAcceptDeliveryCustomer` `OrderCompleteDeliveryCustomer` `OrderReceivedDeliveryCustomer`<br />
 * Customer decision sequence<br />
   `OrderAccepted` `OrderDeclined`
+
+
+
+<!-- Documentation -->
+## Process documentation
+
+In order to be able to evaluate the functionalities of the AM Blockchain solution, real manufacturing processes were run through and the data was recorded via the AM part record. In the course of this, all developed applications (web application, decentralized storage, smart contract, data access via Etherscan) were tested and validated.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+### Web application
+
+First, the part manufacturer logs into the developed web application and creates a part record for a new part.
+
+<p align="center">
+ <img src="https://github.com/eedinson/AM-Blockchain/blob/main/images/AMBlockchain_WebApp_Login.jpg" width="800">
+</p>
+
+All relevant quality information is then stored digitally for this part.
+
+<p align="center">
+ <img src="https://github.com/eedinson/AM-Blockchain/blob/main/images/AMBlockchain_WebApp_Insights.jpg" width="800">
+</p>
+
+Furthermore, quality documents are created during production and the file and document names are also inserted into the web application. Finally, a summary of all information is extracted via the web application in the form of a JSON file.
+
+For example, the print report `DO-04_PrintReport_LFM-0122-100-001.pdf` is considered as a quality document.
+A reference to each quality document is stored among other information in the `ID1.json` file to the [Data](https://github.com/eedinson/AM-Blockchain/tree/main/data) for the respective component.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+### Decentralized storage
+
+First, the part manufacturer logs into the developed web application and creates a part record for a new part.
+
+<p align="center">
+ <img src="https://github.com/eedinson/AM-Blockchain/blob/main/images/AMBlockchain_Architecture.jpg" width="800">
+</p>
+
+Anschließend werden zu diesem Bauteil digital alle relevanten Qualitätsinformationen hinterlegt.
+
+<p align="center">
+ <img src="https://github.com/eedinson/AM-Blockchain/blob/main/images/AMBlockchain_SequenceDiagram.jpg" width="800">
+</p>
+
+Furthermore, quality documents are created during production and the file and document names are also inserted into the web application. Finally, a summary of all information is extracted via the web application in the form of a JSON file.
+
+For example, the print report `DO-04_PrintReport_LFM-0122-100-001.pdf` is considered as a quality document.
+A reference to each quality document is stored among other information in the `ID1.json` file to the [Data](https://github.com/eedinson/AM-Blockchain/tree/main/data) for the respective component.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
 
 
 

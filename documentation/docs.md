@@ -83,22 +83,46 @@ The following images illustrates the interaction between the individual particip
 
 Within the AM Blockchain concept, the following aspects are defined:
 
-**Participants**
-`Manufacturer` `IPFS` `Smart contract` `Shipper` `Sinterer` `Customer`
+**Participants and ethereum addresses**
+* AMChain smart contract
+   ```sh
+   0xebdc7eAdBCc95aa5911A571cC589B0A42119D5dD
+   ```
+* Manufacturer
+   ```sh
+   0xA4084Fc2FeCBC4E20BaA2b5FA9Af3f5C72906536
+   ```
+* Shipper
+   ```sh
+   0x5c6743508a15829E7bcb0484AFEfB07f88BA6Ce5
+   ```
+* Sinterer
+   ```sh
+   0x5c6743508a15829E7bcb0484AFEfB07f88BA6Ce5
+   ```
+* Customer
+   ```sh
+   0x5c6743508a15829E7bcb0484AFEfB07f88BA6Ce5
+   ```
 
 **Assets**
 `partID`
 
 **Transactions**<br />
-<br />
-
-`Created` `RequestShippingSinterer`
-`AcceptShippingSinterer` `CompleteShippingSinterer`
-`ReceivedShippingSinterer` `Sintered` `RequestReshippingManufacturer`
-`AcceptReshippingManufacturer` `CompleteReshippingManufacturer`
-`ReceivedReshippingManufacturer` `Checked` `RequestDeliveryCustomer`
-`AcceptDeliveryCustomer` `CompleteDeliveryCustomer`
-`ReceivedDeliveryCustomer` `Accepted` `Declined`
+* Manufacturer<br />
+  `Created` `RequestShippingSinterer`
+* Shipper<br />
+  `AcceptShippingSinterer` `CompleteShippingSinterer`
+* Sinterer<br />
+  `ReceivedShippingSinterer` `Sintered` `RequestReshippingManufacturer`
+* Shipper<br />
+  `AcceptReshippingManufacturer` `CompleteReshippingManufacturer`
+* Manufacturer<br />
+  `ReceivedReshippingManufacturer` `Checked` `RequestDeliveryCustomer`
+* Shipper<br />
+  `AcceptDeliveryCustomer` `CompleteDeliveryCustomer`
+* Customer<br />
+  `ReceivedDeliveryCustomer` `Accepted` or `Declined`
 
 **Events**<br />
 * Manufacturing sequence<br />

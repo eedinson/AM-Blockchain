@@ -62,7 +62,7 @@ The new AM part record is designed to increase the quality of additive manufactu
 
 The architecture and process flow for implementing digital manufacturing documentation based on the AM Blockchain are shown below:
 
- <img src="https://github.com/eedinson/AM-Blockchain/blob/main/images/AMBlockchain_Architecture.jpg" width="900" height="600">
+ <img src="https://github.com/eedinson/AM-Blockchain/blob/main/images/AMBlockchain_Architecture.jpg" width="900">
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>

@@ -81,6 +81,7 @@ Within the AM Blockchain concept, the following aspects are defined:
 `partID`
 
 **Transactions**<br />
+<br />
 
 `Created` `RequestShippingSinterer`
 `AcceptShippingSinterer` `CompleteShippingSinterer`
@@ -91,17 +92,17 @@ Within the AM Blockchain concept, the following aspects are defined:
 `ReceivedDeliveryCustomer` `Accepted` `Declined`
 
 **Events**<br />
-Manufacturing sequence<br />
-`OrderCreated` `OrderRequestShippingSinterer`<br />
-Shipment to Sinterer sequence<br />
-`OrderAcceptShippingSinterer` `OrderCompleteShippingSinterer` `OrderReceivedShippingSinterer`<br />
-Sintering sequence<br />
-`OrderSintered` `OrderRequestReshippingManufacturer`<br />
-Shipment back to Manufacturer sequence<br />
-`OrderAcceptReshippingManufacturer` `OrderCompleteReshippingManufacturer` `OrderReceivedReshippingManufacturer`<br />
-Quality control sequence<br />
-`OrderChecked` `OrderRequestDeliveryCustomer`<br />
-Delivery to Customer sequence<br />
-`OrderAcceptDeliveryCustomer` `OrderCompleteDeliveryCustomer` `OrderReceivedDeliveryCustomer`<br />
-Customer decision sequence<br />
-`OrderAccepted` `OrderDeclined`
+* Manufacturing sequence<br />
+  `OrderCreated` `OrderRequestShippingSinterer`<br />
+* Shipment to Sinterer sequence<br />
+  `OrderAcceptShippingSinterer` `OrderCompleteShippingSinterer` `OrderReceivedShippingSinterer`<br />
+* Sintering sequence<br />
+  `OrderSintered` `OrderRequestReshippingManufacturer`<br />
+* Shipment back to Manufacturer sequence<br />
+  `OrderAcceptReshippingManufacturer` `OrderCompleteReshippingManufacturer` `OrderReceivedReshippingManufacturer`<br />
+* Quality control sequence<br />
+  `OrderChecked` `OrderRequestDeliveryCustomer`<br />
+* Delivery to Customer sequence<br />
+  `OrderAcceptDeliveryCustomer` `OrderCompleteDeliveryCustomer` `OrderReceivedDeliveryCustomer`<br />
+* Customer decision sequence<br />
+  `OrderAccepted` `OrderDeclined`

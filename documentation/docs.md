@@ -33,10 +33,10 @@
 <!-- INFORMATION -->
 ## Information on the associated paper
 
-Title: &ensp;&emsp;   Development of a blockchain-based quality assurance concept for a digital additive manufacturing part record<br />
+Title: &emsp;&emsp;   Development of a blockchain-based quality assurance concept for a digital additive manufacturing part record<br />
 Authors: &emsp;       Erik Westphal, Hermann Seitz, Benjamin Leiding, Max Muster<br />
 Journal: &nbsp;&emsp; ksdjbfd<br />
-DOI: &ensp;&emsp;     gfdghgh<br />
+DOI: &emsp;&emsp;     gfdghgh<br />
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 

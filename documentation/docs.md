@@ -14,14 +14,14 @@
   <summary>Table of Contents</summary>
   <ol>
     <li><a href="#Information-on-the-associated-paper">Information on the associated paper</a></li>
-    <li><a href="#Goals to be achieved with the AM Blockchain">Goals to be achieved with the AM Blockchain</a></li>
-    <li><a href="#Architecture of the AM Blockchain solution">Architecture of the AM Blockchain solution</a></li>
-    <li><a href="#Preliminary definitions">Preliminary definitions</a></li>
+    <li><a href="#Goals-to-be-achieved-with-the-AM-Blockchain">Goals to be achieved with the AM Blockchain</a></li>
+    <li><a href="#Architecture-of-the-AM-Blockchain-solution">Architecture of the AM Blockchain solution</a></li>
+    <li><a href="#Preliminary-definitions">Preliminary definitions</a></li>
     <li>
-      <a href="#Process documentation">Process documentation</a>
+      <a href="#Process-documentation">Process documentation</a>
       <ul>
-        <li><a href="#Create part record">Prerequisites</a></li>
-        <li><a href="#Enter quality-related information">Enter quality-related information</a></li>
+        <li><a href="#Create-part-record">Prerequisites</a></li>
+        <li><a href="#Enter-quality-related-information">Enter quality-related information</a></li>
       </ul>
     </li>
     <li><a href="#Evaluation">Evaluation</a></li>
@@ -33,10 +33,10 @@
 <!-- INFORMATION -->
 ## Information on the associated paper
 
-Title:    Development of a blockchain-based quality assurance concept for a digital additive manufacturing part record
-Authors:  Erik Westphal, Hermann Seitz, Benjamin Leiding, Max Muster
-Journal:  ksdjbfd
-DOI:      gfdghgh
+Title:    Development of a blockchain-based quality assurance concept for a digital additive manufacturing part record<br />
+Authors:  Erik Westphal, Hermann Seitz, Benjamin Leiding, Max Muster<br />
+Journal:  ksdjbfd<br />
+DOI:      gfdghgh<br />
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 

@@ -4,7 +4,7 @@
   <p align="center">
     Development of a blockchain-based quality assurance concept for a digital additive manufacturing part record
     <br />
-    <a href="#Process-documentation"><strong>Go to documentation »</strong></a>
+    <a href="#Process-documentation"><strong>Go to visual documentation »</strong></a>
     <br />
     <br />
   </p>
@@ -180,22 +180,39 @@ A reference to each quality document is stored among other information in the `I
 
 ### Decentralized storage
 
-First, the part manufacturer logs into the developed web application and creates a part record for a new part.
+All created documents as well as the JSON file with the collected information about the part production are uploaded to a folder in the decentralized storage system IPFS. A CID is generated under which the data can be accessed in the IPFS.
 
 <p align="center">
- <img src="https://github.com/eedinson/AM-Blockchain/blob/main/images/AMBlockchain_Architecture.jpg" width="800">
+ <img src="https://github.com/eedinson/AM-Blockchain/blob/main/images/AMBlockchain_IPFS_Files.jpg" width="800">
 </p>
 
-Anschließend werden zu diesem Bauteil digital alle relevanten Qualitätsinformationen hinterlegt.
+All folders in the IPFS have a uniform folder structure in which the individual quality documents and production data are stored in a structured manner. Each document is in turn linked to its own CID, so that only access to individual files is possible. 
 
 <p align="center">
- <img src="https://github.com/eedinson/AM-Blockchain/blob/main/images/AMBlockchain_SequenceDiagram.jpg" width="800">
+ <img src="https://github.com/eedinson/AM-Blockchain/blob/main/images/AMBlockchain_IPFS_PartDocumentation.jpg" width="800">
 </p>
 
-Furthermore, quality documents are created during production and the file and document names are also inserted into the web application. Finally, a summary of all information is extracted via the web application in the form of a JSON file.
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-For example, the print report `DO-04_PrintReport_LFM-0122-100-001.pdf` is considered as a quality document.<br />
-A reference to each quality document is stored among other information in the `ID1.json` file to the [Data](https://github.com/eedinson/AM-Blockchain/tree/main/data) for the respective component.
+
+
+### Smart contract
+
+Nachdem alle Daten im IPFS hochgeladen sind, werden CID und weitere Fertigungsinformationen über die Remix IDE in den entwickelten smart contract hinterlegt.<br />
+<br />
+Über MetaMask werden die verschiedenen Accounts der Prozessteilnehmer simuliert. Dazu wird jeder Teilnehmeraccount in MEtamAsk erstellt und die jeweilige Ropsten Ethereum adresse in den smart contract geschrieben. Über die mit Solidity programmierte "creatOrder" function werden dann Bauteilbezeichnung, CID und Teilnehmeraccounts im smart contract hinterlegt und on-chain in der Ropsten ethereum blockchain gespeichert.
+
+<p align="center">
+ <img src="https://github.com/eedinson/AM-Blockchain/blob/main/images/AMBlockchain_SmartContract_CreateOrder.jpg" width="800">
+</p>
+
+Die „createOrder“ Funktion wird vom Manufacturer ausgeführt, wodurch eine neue Bauteilakte mit dem Input der partID und der IPFS_CID im smart contract angelegt wird. Die Transaktion findet dabei von der Manufacturer ethereum address zur smart contract adresse statt. Weiterhin ist in den logs zu sehen, dass ein event erfolgreich ausgeführt und die Erstellung der Order sowie die Indexierung eines neuen Bauteils vollzogen wurde.<br />
+<br />
+Anschließend werden alle weiteren Funktionen des smart contracts erfolgreich ausgeführt. Dies ist in der [Smart contract.md](https://github.com/eedinson/AM-Blockchain/tree/main/data) vollständig dokumentiert.
+
+<p align="center">
+ <img src="https://github.com/eedinson/AM-Blockchain/blob/main/images/AMBlockchain_SmartContract_FunctionLog.jpg" width="800">
+</p>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 

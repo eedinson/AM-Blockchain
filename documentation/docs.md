@@ -198,21 +198,21 @@ All folders in the IPFS have a uniform folder structure in which the individual 
 
 ### Smart contract
 
-Nachdem alle Daten im IPFS hochgeladen sind, werden CID und weitere Fertigungsinformationen über die Remix IDE in den entwickelten smart contract hinterlegt.<br />
+After all data is uploaded to the IPFS, CID and other manufacturing information is inserted into the developed smart contract via the Remix IDE.<br />
 <br />
-Über MetaMask werden die verschiedenen Accounts der Prozessteilnehmer simuliert. Dazu wird jeder Teilnehmeraccount in MEtamAsk erstellt und die jeweilige Ropsten Ethereum adresse in den smart contract geschrieben. Über die mit Solidity programmierte "creatOrder" function werden dann Bauteilbezeichnung, CID und Teilnehmeraccounts im smart contract hinterlegt und on-chain in der Ropsten ethereum blockchain gespeichert.
+The various accounts of the process participants are simulated via Metamask. For this purpose, each participant account is created in Metamask and the respective Ropsten Ethereum address is written into the smart contract. Using the "creatOrder" function programmed with Solidity, the component name, CID and participant accounts are then stored in the smart contract and saved on-chain in the Ropsten ethereum blockchain.
 
 <p align="center">
  <img src="https://github.com/eedinson/AM-Blockchain/blob/main/images/AMBlockchain_SmartContract_CreateOrder.jpg" width="1200">
 </p>
 
-Die „createOrder“ Funktion wird vom Manufacturer ausgeführt, wodurch eine neue Bauteilakte mit dem Input der partID und der IPFS_CID im smart contract angelegt wird. Die Transaktion findet dabei von der Manufacturer ethereum address zur smart contract adresse statt. Weiterhin ist in den logs zu sehen, dass ein event erfolgreich ausgeführt und die Erstellung der Order sowie die Indexierung eines neuen Bauteils vollzogen wurde.<br />
-<br />
-Anschließend werden alle weiteren Funktionen des smart contracts erfolgreich ausgeführt. Dies ist in der [Smart contract.md](https://github.com/eedinson/AM-Blockchain/tree/main/data) vollständig dokumentiert.
+The "createOrder" function is executed by the manufacturer, which creates a new part record by entering the partID and IPFS_CID in the smart contract. The transaction takes place from the ethereum address of the manufacturer to the address of the smart contract. Furthermore, it can be seen in the logs that an event was successfully executed and the creation of the contract and indexing of a new part was completed.<br />
 
 <p align="center">
  <img src="https://github.com/eedinson/AM-Blockchain/blob/main/images/AMBlockchain_SmartContract_FunctionLogs.jpg" width="1200">
 </p>
+
+Subsequently, all further functions of the smart contract are executed successfully. This is fully documented in the [Smart contract.md](https://github.com/eedinson/AM-Blockchain/tree/main/data).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 

@@ -4,6 +4,9 @@
   <p align="center">
     Development of a blockchain-based quality assurance concept for a digital additive manufacturing part record
     <br />
+    <a href="#Process-documentation"><strong>Go to documentation »</strong></a>
+    <br />
+    <br />
   </p>
 </div>
 
@@ -105,8 +108,9 @@ Within the AM Blockchain concept, the following aspects are defined:
    0x5c6743508a15829E7bcb0484AFEfB07f88BA6Ce5
    ```
 
-**Assets**
-`partID`
+**Assets**<br />
+* ID of the parts<br />
+  `_partID` `_IPFS_CID`
 
 **Transactions**<br />
 * Manufacturer<br />
@@ -190,7 +194,7 @@ Anschließend werden zu diesem Bauteil digital alle relevanten Qualitätsinforma
 
 Furthermore, quality documents are created during production and the file and document names are also inserted into the web application. Finally, a summary of all information is extracted via the web application in the form of a JSON file.
 
-For example, the print report `DO-04_PrintReport_LFM-0122-100-001.pdf` is considered as a quality document.
+For example, the print report `DO-04_PrintReport_LFM-0122-100-001.pdf` is considered as a quality document.<br />
 A reference to each quality document is stored among other information in the `ID1.json` file to the [Data](https://github.com/eedinson/AM-Blockchain/tree/main/data) for the respective component.
 
 <p align="right">(<a href="#top">back to top</a>)</p>

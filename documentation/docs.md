@@ -203,7 +203,7 @@ Nachdem alle Daten im IPFS hochgeladen sind, werden CID und weitere Fertigungsin
 Über MetaMask werden die verschiedenen Accounts der Prozessteilnehmer simuliert. Dazu wird jeder Teilnehmeraccount in MEtamAsk erstellt und die jeweilige Ropsten Ethereum adresse in den smart contract geschrieben. Über die mit Solidity programmierte "creatOrder" function werden dann Bauteilbezeichnung, CID und Teilnehmeraccounts im smart contract hinterlegt und on-chain in der Ropsten ethereum blockchain gespeichert.
 
 <p align="center">
- <img src="https://github.com/eedinson/AM-Blockchain/blob/main/images/AMBlockchain_SmartContract_CreateOrder.jpg" width="800">
+ <img src="https://github.com/eedinson/AM-Blockchain/blob/main/images/AMBlockchain_SmartContract_CreateOrder.jpg" width="1200">
 </p>
 
 Die „createOrder“ Funktion wird vom Manufacturer ausgeführt, wodurch eine neue Bauteilakte mit dem Input der partID und der IPFS_CID im smart contract angelegt wird. Die Transaktion findet dabei von der Manufacturer ethereum address zur smart contract adresse statt. Weiterhin ist in den logs zu sehen, dass ein event erfolgreich ausgeführt und die Erstellung der Order sowie die Indexierung eines neuen Bauteils vollzogen wurde.<br />
@@ -211,7 +211,7 @@ Die „createOrder“ Funktion wird vom Manufacturer ausgeführt, wodurch eine n
 Anschließend werden alle weiteren Funktionen des smart contracts erfolgreich ausgeführt. Dies ist in der [Smart contract.md](https://github.com/eedinson/AM-Blockchain/tree/main/data) vollständig dokumentiert.
 
 <p align="center">
- <img src="https://github.com/eedinson/AM-Blockchain/blob/main/images/AMBlockchain_SmartContract_FunctionLogs.jpg" width="800">
+ <img src="https://github.com/eedinson/AM-Blockchain/blob/main/images/AMBlockchain_SmartContract_FunctionLogs.jpg" width="1200">
 </p>
 
 <p align="right">(<a href="#top">back to top</a>)</p>

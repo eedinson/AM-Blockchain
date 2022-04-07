@@ -189,7 +189,7 @@ All created documents as well as the JSON file with the collected information ab
 All folders in the IPFS have a uniform folder structure in which the individual quality documents and production data are stored in a structured manner. Each document is in turn linked to its own CID, so that only access to individual files is possible. 
 
 <p align="center">
- <img src="https://github.com/eedinson/AM-Blockchain/blob/main/images/AMBlockchain_IPFS_PartDocumentation.jpg" width="800">
+ <img src="https://github.com/eedinson/AM-Blockchain/blob/main/images/AMBlockchain_IPFS_PartDocuments.jpg" width="800">
 </p>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -211,7 +211,7 @@ Die „createOrder“ Funktion wird vom Manufacturer ausgeführt, wodurch eine n
 Anschließend werden alle weiteren Funktionen des smart contracts erfolgreich ausgeführt. Dies ist in der [Smart contract.md](https://github.com/eedinson/AM-Blockchain/tree/main/data) vollständig dokumentiert.
 
 <p align="center">
- <img src="https://github.com/eedinson/AM-Blockchain/blob/main/images/AMBlockchain_SmartContract_FunctionLog.jpg" width="800">
+ <img src="https://github.com/eedinson/AM-Blockchain/blob/main/images/AMBlockchain_SmartContract_FunctionLogs.jpg" width="800">
 </p>
 
 <p align="right">(<a href="#top">back to top</a>)</p>

@@ -222,15 +222,15 @@ Subsequently, all further functions of the smart contract are executed successfu
 
 ### Data access via Etherscan
 
-Parallel zur Fertigungsdokumentation können die on-chain gespeicherten Daten stetig aktuell über den Blockchain Explorer Ropsten Etherscan eingesehen werden. Dazu ist zunächst die Adresse des smart contracts im Explorer einzufügen, um Zugang zur Dokumentation zu erhalten.
+Parallel to the manufacturing documentation, the data stored on-chain can be continuously viewed via the blockchain explorer Ropsten Etherscan. To do this, the address of the smart contract must first be entered into the explorer to gain access to the documentation.
 
 <p align="center">
  <img src="https://github.com/eedinson/AM-Blockchain/blob/main/images/AMBlockchain_Etherscan_ContractSearch.jpg" width="800">
 </p>
 
-Um die Dokumentation vollständig einsehen und Abfragen an den smart contract stellen zu können, muss dieser zunächst verifiziert und veröffentlicht werden. Dieser Prozess ist in der [Etherscan.md](https://github.com/eedinson/AM-Blockchain/blob/main/documentation/Etherscan.md) näher beschrieben.<br />
+In order to be able to fully view the documentation and make queries to the smart contract, it must first be verified and published. This process is described in more detail in [Etherscan.md](https://github.com/eedinson/AM-Blockchain/blob/main/documentation/Etherscan.md).<br />
 <br />
-Über eine Datenabfrage zu den entsprechend indizierten Bauteilen können anschließend die zugehörigen on-chain gespeicherten Information ausgelesen werden. 
+The associated information stored on-chain can then be read out via a data query for the corresponding indexed parts. 
 
 <p align="center">
  <img src="https://github.com/eedinson/AM-Blockchain/blob/main/images/AMBlockchain_Etherscan_ContractQuery.jpg" width="800">

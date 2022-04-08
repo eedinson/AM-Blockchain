@@ -198,9 +198,9 @@ All folders in the IPFS have a uniform folder structure in which the individual 
 
 ### Smart contract
 
-After all data is uploaded to the IPFS, CID and other manufacturing information is inserted into the developed smart contract via the Remix IDE.<br />
+After all data is uploaded to the IPFS, CID and other manufacturing information is inserted into the developed and deployed smart contract via the Remix IDE.<br />
 <br />
-The various accounts of the process participants are simulated via Metamask. For this purpose, each participant account is created in Metamask and the respective Ropsten Ethereum address is written into the smart contract. Using the "creatOrder" function programmed with Solidity, the component name, CID and participant accounts are then stored in the smart contract and saved on-chain in the Ropsten ethereum blockchain.
+The various accounts of the process participants are simulated via Metamask. For this purpose, each participant account is created in Metamask and the respective Ropsten Ethereum address is written into the smart contract. In the "Injected Web3" environment using the "creatOrder" function programmed with Solidity, the component name, CID and participant accounts are then stored in the smart contract and saved on-chain in the Ropsten ethereum blockchain.
 
 <p align="center">
  <img src="https://github.com/eedinson/AM-Blockchain/blob/main/images/AMBlockchain_SmartContract_CreateOrder.jpg" width="1200">
@@ -216,6 +216,25 @@ Subsequently, all further functions of the smart contract are executed successfu
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+
+
+### Data access via Etherscan
+
+Parallel zur Fertigungsdokumentation können die on-chain gespeicherten Daten stetig aktuell über den Blockchain Explorer Ropsten Etherscan eingesehen werden. Dazu ist zunächst die Adresse des smart contracts im Explorer einzufügen, um Zugang zur Dokumentation zu erhalten.
+
+<p align="center">
+ <img src="https://github.com/eedinson/AM-Blockchain/blob/main/images/AMBlockchain_Etherscan_ContractSearch.jpg" width="800">
+</p>
+
+Um die Dokumentation vollständig einsehen und Abfragen an den smart contract stellen zu können, muss dieser zunächst verifiziert und veröffentlicht werden. Dieser Prozess ist in der [Etherscan.md](https://github.com/eedinson/AM-Blockchain/tree/main/data) näher beschrieben.<br />
+<br />
+Über eine Datenabfrage zu den entsprechend indizierten Bauteilen können anschließend die zugehörigen on-chain gespeicherten Information ausgelesen werden. 
+
+<p align="center">
+ <img src="https://github.com/eedinson/AM-Blockchain/blob/main/images/AMBlockchain_Etherscan_ContractQuery.jpg" width="800">
+</p>
+
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 
 

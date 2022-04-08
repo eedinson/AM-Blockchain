@@ -23,8 +23,10 @@
     <li>
       <a href="#Process-documentation">Process documentation</a>
       <ul>
-        <li><a href="#Create-part-record">Create part record</a></li>
-        <li><a href="#Enter-quality-related-information">Enter quality-related information</a></li>
+        <li><a href="#Web-application">Web application</a></li>
+        <li><a href="#Decentralized-storage">Decentralized storage</a></li>
+        <li><a href="#Smart-contract">Smart contract</a></li>
+        <li><a href="#Data-access-via-Etherscan">Data access via Etherscan</a></li>
       </ul>
     </li>
     <li><a href="#Evaluation">Evaluation</a></li>

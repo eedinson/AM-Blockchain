@@ -212,7 +212,7 @@ The "createOrder" function is executed by the manufacturer, which creates a new 
  <img src="https://github.com/eedinson/AM-Blockchain/blob/main/images/AMBlockchain_SmartContract_FunctionLogs.jpg" width="1200">
 </p>
 
-Subsequently, all further functions of the smart contract are executed successfully. This is fully documented in the [Smart contract.md](https://github.com/eedinson/AM-Blockchain/tree/main/data).
+Subsequently, all further functions of the smart contract are executed successfully. This is fully documented in the [Smart contract.md](https://github.com/eedinson/AM-Blockchain/blob/main/documentation/SmartContract.md).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -226,7 +226,7 @@ Parallel zur Fertigungsdokumentation können die on-chain gespeicherten Daten st
  <img src="https://github.com/eedinson/AM-Blockchain/blob/main/images/AMBlockchain_Etherscan_ContractSearch.jpg" width="800">
 </p>
 
-Um die Dokumentation vollständig einsehen und Abfragen an den smart contract stellen zu können, muss dieser zunächst verifiziert und veröffentlicht werden. Dieser Prozess ist in der [Etherscan.md](https://github.com/eedinson/AM-Blockchain/tree/main/data) näher beschrieben.<br />
+Um die Dokumentation vollständig einsehen und Abfragen an den smart contract stellen zu können, muss dieser zunächst verifiziert und veröffentlicht werden. Dieser Prozess ist in der [Etherscan.md](https://github.com/eedinson/AM-Blockchain/blob/main/documentation/Etherscan.md) näher beschrieben.<br />
 <br />
 Über eine Datenabfrage zu den entsprechend indizierten Bauteilen können anschließend die zugehörigen on-chain gespeicherten Information ausgelesen werden. 
 

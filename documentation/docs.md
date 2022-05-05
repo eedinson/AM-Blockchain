@@ -91,19 +91,19 @@ Within the AM Blockchain concept, the following aspects are defined:
 **Participants and ethereum addresses**
 * AMChain smart contract
    ```sh
-   0xebdc7eAdBCc95aa5911A571cC589B0A42119D5dD
+   0x2D99CFCB3C4672a00124bf1314Ba183bA1765e47
    ```
 * Manufacturer
    ```sh
-   0xA4084Fc2FeCBC4E20BaA2b5FA9Af3f5C72906536
+   0xebdc7eAdBCc95aa5911A571cC589B0A42119D5dD
    ```
 * Shipper
    ```sh
-   0x5c6743508a15829E7bcb0484AFEfB07f88BA6Ce5
+   0xA4084Fc2FeCBC4E20BaA2b5FA9Af3f5C72906536
    ```
 * Sinterer
    ```sh
-   0x5c6743508a15829E7bcb0484AFEfB07f88BA6Ce5
+   0xadbe1C35f796C709A800DeF7A2e08ec34A2C139E
    ```
 * Customer
    ```sh
@@ -111,7 +111,7 @@ Within the AM Blockchain concept, the following aspects are defined:
    ```
 
 **Assets**<br />
-* ID of the parts<br />
+* ID and CID of the parts<br />
   `_partID` `_IPFS_CID`
 
 **Transactions**<br />

@@ -21,7 +21,7 @@ All functions programmed in the smart contract were subsequently tested to ensur
 
 
 
-### Deploy contract
+## Deploy contract
 
 Creation of the smart contract. The function is executed by the manufacturer. The transaction execution, smart contract history, transaction details and transaction logs are shown below.
 

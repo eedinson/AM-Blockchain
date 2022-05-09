@@ -131,22 +131,22 @@ The shipping service provider accepts the shipping request and takes over the pa
 
 ### II2_CompleteShippingSintererOrder
 
-The shipping service provider accepts the shipping request and takes over the parts. The function is executed by the shipper. The transaction execution, smart contract history, transaction details and transaction logs are shown below.
+The shipping service provider complete the shipping order and deliver the parts to the sinterer. The function is executed by the shipper. The transaction execution, smart contract history, transaction details and transaction logs are shown below.
 
 <p align="center">
- <img src="https://github.com/eedinson/AM-Blockchain/blob/main/images/AcceptShippingSintererOrder/Transaction_execution.jpg" width="700">
+ <img src="https://github.com/eedinson/AM-Blockchain/blob/main/images/CompleteShippingSintererOrder/Transaction_execution.jpg" width="700">
 </p>
 
 <p align="center">
- <img src="https://github.com/eedinson/AM-Blockchain/blob/main/images/AcceptShippingSintererOrder/SmartContract_history.jpg" width="700">
+ <img src="https://github.com/eedinson/AM-Blockchain/blob/main/images/CompleteShippingSintererOrder/SmartContract_history.jpg" width="700">
 </p>
 
 <p align="center">
- <img src="https://github.com/eedinson/AM-Blockchain/blob/main/images/AcceptShippingSintererOrder/Transaction_details.jpg" width="700">
+ <img src="https://github.com/eedinson/AM-Blockchain/blob/main/images/CompleteShippingSintererOrder/Transaction_details.jpg" width="700">
 </p>
 
 <p align="center">
- <img src="https://github.com/eedinson/AM-Blockchain/blob/main/images/AcceptShippingSintererOrder/Transaction_logs.jpg" width="700">
+ <img src="https://github.com/eedinson/AM-Blockchain/blob/main/images/CompleteShippingSintererOrder/Transaction_logs.jpg" width="700">
 </p>
 
 <p align="right">(<a href="#top">back to top</a>)</p>

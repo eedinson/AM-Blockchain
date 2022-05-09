@@ -18,6 +18,7 @@ All functions programmed in the smart contract were subsequently tested to ensur
     <li><a href="#4-Shipment-back-to-Manufacturer-sequence">4. Shipment back to Manufacturer sequence</a></li>
     <li><a href="#5-Quality-control-sequence">5. Quality control sequence</a></li>
     <li><a href="#6-Delivery-to-Customer-sequence">6. Delivery to Customer sequence</a></li>
+    <li><a href="#7-Customer-decision-sequence">7. Customer decision sequence</a></li>
   </ol>
 </details>
 
@@ -395,24 +396,100 @@ The shipping service provider accepts the shipping request to the customer and t
 
 
 
-### VI1_AcceptDeliveryCustomerOrder
+### VI2_CompleteDeliveryCustomerOrder
 
-The shipping service provider accepts the shipping request to the customer and takes over the parts. The function is executed by the shipper. The transaction execution, smart contract history, transaction details and transaction logs are shown below.
+The shipping service provider complete the final shipping order and deliver the parts to the customer. The function is executed by the shipper. The transaction execution, smart contract history, transaction details and transaction logs are shown below.
 
 <p align="center">
- <img src="https://github.com/eedinson/AM-Blockchain/blob/main/images/AcceptDeliveryCustomerOrder/Transaction_execution.jpg" width="700">
+ <img src="https://github.com/eedinson/AM-Blockchain/blob/main/images/CompleteDeliveryCustomerOrder/Transaction_execution.jpg" width="700">
 </p>
 
 <p align="center">
- <img src="https://github.com/eedinson/AM-Blockchain/blob/main/images/AcceptDeliveryCustomerOrder/SmartContract_history.jpg" width="700">
+ <img src="https://github.com/eedinson/AM-Blockchain/blob/main/images/CompleteDeliveryCustomerOrder/SmartContract_history.jpg" width="700">
 </p>
 
 <p align="center">
- <img src="https://github.com/eedinson/AM-Blockchain/blob/main/images/AcceptDeliveryCustomerOrder/Transaction_details.jpg" width="700">
+ <img src="https://github.com/eedinson/AM-Blockchain/blob/main/images/CompleteDeliveryCustomerOrder/Transaction_details.jpg" width="700">
 </p>
 
 <p align="center">
- <img src="https://github.com/eedinson/AM-Blockchain/blob/main/images/AcceptDeliveryCustomerOrder/Transaction_logs.jpg" width="700">
+ <img src="https://github.com/eedinson/AM-Blockchain/blob/main/images/CompleteDeliveryCustomerOrder/Transaction_logs.jpg" width="700">
+</p>
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+### VI3_ReceivedDeliveryCustomerOrder
+
+The customer receives the parts from the shipper and confirms the handover. The function is executed by the customer. The transaction execution, smart contract history, transaction details and transaction logs are shown below.
+
+<p align="center">
+ <img src="https://github.com/eedinson/AM-Blockchain/blob/main/images/ReceivedDeliveryCustomerOrder/Transaction_execution.jpg" width="700">
+</p>
+
+<p align="center">
+ <img src="https://github.com/eedinson/AM-Blockchain/blob/main/images/ReceivedDeliveryCustomerOrder/SmartContract_history.jpg" width="700">
+</p>
+
+<p align="center">
+ <img src="https://github.com/eedinson/AM-Blockchain/blob/main/images/ReceivedDeliveryCustomerOrder/Transaction_details.jpg" width="700">
+</p>
+
+<p align="center">
+ <img src="https://github.com/eedinson/AM-Blockchain/blob/main/images/ReceivedDeliveryCustomerOrder/Transaction_logs.jpg" width="700">
+</p>
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+## 7. Customer decision sequence
+
+
+
+### VII1_AcceptOrder
+
+The customer accepts the order and the quality documentation. The part record for the corresponding part is now complete and closed. The function is executed by the customer. The transaction execution, smart contract history, transaction details and transaction logs are shown below.
+
+<p align="center">
+ <img src="https://github.com/eedinson/AM-Blockchain/blob/main/images/AcceptOrder/Transaction_execution.jpg" width="700">
+</p>
+
+<p align="center">
+ <img src="https://github.com/eedinson/AM-Blockchain/blob/main/images/AcceptOrder/SmartContract_history.jpg" width="700">
+</p>
+
+<p align="center">
+ <img src="https://github.com/eedinson/AM-Blockchain/blob/main/images/AcceptOrder/Transaction_details.jpg" width="700">
+</p>
+
+<p align="center">
+ <img src="https://github.com/eedinson/AM-Blockchain/blob/main/images/AcceptOrder/Transaction_logs.jpg" width="700">
+</p>
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+### VII2_DeclineOrder - Test
+
+The customer can also decline the order. However, this should no longer be possible after an order has already been accepted. This functionality will be tested below. The function is executed by the customer. The transaction execution, smart contract history, transaction details and transaction logs are shown below.
+
+<p align="center">
+ <img src="https://github.com/eedinson/AM-Blockchain/blob/main/images/DeclineOrder/Transaction_execution.jpg" width="700">
+</p>
+
+<p align="center">
+ <img src="https://github.com/eedinson/AM-Blockchain/blob/main/images/DeclineOrder/SmartContract_history.jpg" width="700">
+</p>
+
+<p align="center">
+ <img src="https://github.com/eedinson/AM-Blockchain/blob/main/images/DeclineOrder/Transaction_details.jpg" width="700">
+</p>
+
+<p align="center">
+ <img src="https://github.com/eedinson/AM-Blockchain/blob/main/images/DeclineOrder/Transaction_logs.jpg" width="700">
 </p>
 
 <p align="right">(<a href="#top">back to top</a>)</p>

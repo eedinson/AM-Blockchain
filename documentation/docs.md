@@ -39,9 +39,9 @@
 ## Information on the associated paper
 
 Title: &ensp;&emsp;&emsp;   Development of a blockchain-based quality assurance concept for a digital additive manufacturing part record<br />
-Authors: &emsp;             Erik Westphal, Hermann Seitz, Benjamin Leiding, Max Muster<br />
-Journal: &nbsp;&emsp;       ksdjbfd<br />
-DOI: &ensp;&emsp;&emsp;     gfdghgh<br />
+Authors: &emsp;             Erik Westphal, Benjamin Leiding, Hermann Seitz<br />
+Journal: &nbsp;&emsp;       Virtual and Physical Prototyping<br />
+DOI: &ensp;&emsp;&emsp;     tbd<br />
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -91,7 +91,7 @@ Within the AM Blockchain concept, the following aspects are defined:
 **Participants and ethereum addresses**
 * AMChain smart contract
    ```sh
-   0x2D99CFCB3C4672a00124bf1314Ba183bA1765e47
+   0x34A253F8E74460F264A902E305990Df65FA6C5Ce
    ```
 * Manufacturer
    ```sh

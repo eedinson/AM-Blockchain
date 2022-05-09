@@ -150,3 +150,27 @@ The shipping service provider complete the shipping order and deliver the parts 
 </p>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+### II3_ReceivedShippingSintererOrder
+
+The sintering service provider receives the parts from the shipper and confirms the handover. The function is executed by the sinterer. The transaction execution, smart contract history, transaction details and transaction logs are shown below.
+
+<p align="center">
+ <img src="https://github.com/eedinson/AM-Blockchain/blob/main/images/ReceivedShippingSintererOrder/Transaction_execution.jpg" width="700">
+</p>
+
+<p align="center">
+ <img src="https://github.com/eedinson/AM-Blockchain/blob/main/images/ReceivedShippingSintererOrder/SmartContract_history.jpg" width="700">
+</p>
+
+<p align="center">
+ <img src="https://github.com/eedinson/AM-Blockchain/blob/main/images/ReceivedShippingSintererOrder/Transaction_details.jpg" width="700">
+</p>
+
+<p align="center">
+ <img src="https://github.com/eedinson/AM-Blockchain/blob/main/images/ReceivedShippingSintererOrder/Transaction_logs.jpg" width="700">
+</p>
+
+<p align="right">(<a href="#top">back to top</a>)</p>

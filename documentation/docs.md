@@ -205,7 +205,7 @@ After all data is uploaded to the IPFS, CID and other manufacturing information 
 The various accounts of the process participants are simulated via Metamask. For this purpose, each participant account is created in Metamask and the respective Ropsten Ethereum address is written into the smart contract. In the "Injected Web3" environment using the "creatOrder" function programmed with Solidity, the component name, CID and participant accounts are then stored in the smart contract and saved on-chain in the Ropsten ethereum blockchain.
 
 <p align="center">
- <img src="https://github.com/eedinson/AM-Blockchain/blob/main/images/AMBlockchain_SmartContract_CreateOrder.jpg" width="1200">
+ <img src="https://github.com/eedinson/AM-Blockchain/blob/main/images/AMBlockchain_SmartContract_CreateOrder.jpg" width="800">
 </p>
 
 The "createOrder" function is executed by the manufacturer, which creates a new part record by entering the partID and IPFS_CID in the smart contract. The transaction takes place from the ethereum address of the manufacturer to the address of the smart contract. Furthermore, it can be seen in the logs that an event was successfully executed and the creation of the contract and indexing of a new part was completed.<br />

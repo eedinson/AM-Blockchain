@@ -23,11 +23,11 @@ All functions programmed in the smart contract were subsequently tested to ensur
 Creation of the smart contract. The function is executed by the manufacturer. The transaction execution, smart contract history, transaction details and transaction log are shown below.
 
 <p align="center">
- <img src="https://github.com/eedinson/AM-Blockchain/blob/main/images/DeployContract/Transaction_execution.jpg" width="1000">
+ <img src="https://github.com/eedinson/AM-Blockchain/blob/main/images/DeployContract/Transaction_execution.jpg" width="600">
 </p>
 
 <p align="center">
- <img src="https://github.com/eedinson/AM-Blockchain/blob/main/images/DeployContract/SmartContract_history.jpg" width="1000">
+ <img src="https://github.com/eedinson/AM-Blockchain/blob/main/images/DeployContract/SmartContract_history.jpg" width="600">
 </p>
 
 <p align="center">

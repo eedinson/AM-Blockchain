@@ -162,13 +162,13 @@ In order to be able to evaluate the functionalities of the AM Blockchain solutio
 First, the part manufacturer logs into the developed web application and creates a part record for a new part.
 
 <p align="center">
- <img src="https://github.com/eedinson/AM-Blockchain/blob/main/images/AMBlockchain_WebApp_Login.jpg" width="800">
+ <img src="https://github.com/eedinson/AM-Blockchain/blob/main/images/AMBlockchain_WebApp_Login.jpg" width="700">
 </p>
 
 All relevant quality information is then stored digitally for this part.
 
 <p align="center">
- <img src="https://github.com/eedinson/AM-Blockchain/blob/main/images/AMBlockchain_WebApp_Insights.jpg" width="800">
+ <img src="https://github.com/eedinson/AM-Blockchain/blob/main/images/AMBlockchain_WebApp_Insights.jpg" width="700">
 </p>
 
 Furthermore, quality documents are created during production and the file and document names are also inserted into the web application. Finally, a summary of all information is extracted via the web application in the form of a JSON file.
@@ -185,13 +185,13 @@ A reference to each quality document is stored among other information in the `I
 All created documents as well as the JSON file with the collected information about the part production are uploaded to a folder in the decentralized storage system IPFS. A CID is generated under which the data can be accessed in the IPFS.
 
 <p align="center">
- <img src="https://github.com/eedinson/AM-Blockchain/blob/main/images/AMBlockchain_IPFS_Files.jpg" width="800">
+ <img src="https://github.com/eedinson/AM-Blockchain/blob/main/images/AMBlockchain_IPFS_Files.jpg" width="700">
 </p>
 
 All folders in the IPFS have a uniform folder structure in which the individual quality documents and production data are stored in a structured manner. Each document is in turn linked to its own CID, so that only access to individual files is possible. 
 
 <p align="center">
- <img src="https://github.com/eedinson/AM-Blockchain/blob/main/images/AMBlockchain_IPFS_PartDocuments.jpg" width="800">
+ <img src="https://github.com/eedinson/AM-Blockchain/blob/main/images/AMBlockchain_IPFS_PartDocuments.jpg" width="700">
 </p>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -205,7 +205,7 @@ After all data is uploaded to the IPFS, CID and other manufacturing information 
 The various accounts of the process participants are simulated via Metamask. For this purpose, each participant account is created in Metamask and the respective Ropsten Ethereum address is written into the smart contract. In the "Injected Web3" environment using the "creatOrder" function programmed with Solidity, the component name, CID and participant accounts are then stored in the smart contract and saved on-chain in the Ropsten ethereum blockchain.
 
 <p align="center">
- <img src="https://github.com/eedinson/AM-Blockchain/blob/main/images/AMBlockchain_SmartContract_CreateOrder.jpg" width="1200">
+ <img src="https://github.com/eedinson/AM-Blockchain/blob/main/images/AMBlockchain_SmartContract_CreateOrder.jpg" width="700">
 </p>
 
 The "createOrder" function is executed by the manufacturer, which creates a new part record by entering the partID and IPFS_CID in the smart contract. The transaction takes place from the ethereum address of the manufacturer to the address of the smart contract. Furthermore, it can be seen in the logs that an event was successfully executed and the creation of the contract and indexing of a new part was completed.<br />
@@ -225,7 +225,7 @@ Subsequently, all further functions of the smart contract are executed successfu
 Parallel to the manufacturing documentation, the data stored on-chain can be continuously viewed via the blockchain explorer Ropsten Etherscan. To do this, the address of the smart contract must first be entered into the explorer to gain access to the documentation.
 
 <p align="center">
- <img src="https://github.com/eedinson/AM-Blockchain/blob/main/images/AMBlockchain_Etherscan_ContractSearch.jpg" width="800">
+ <img src="https://github.com/eedinson/AM-Blockchain/blob/main/images/AMBlockchain_Etherscan_ContractSearch.jpg" width="700">
 </p>
 
 In order to be able to fully view the documentation and make queries to the smart contract, it must first be verified and published. This process is described in more detail in [Etherscan.md](https://github.com/eedinson/AM-Blockchain/blob/main/documentation/Etherscan.md).<br />
@@ -233,7 +233,7 @@ In order to be able to fully view the documentation and make queries to the smar
 The associated information stored on-chain can then be read out via a data query for the corresponding indexed parts. 
 
 <p align="center">
- <img src="https://github.com/eedinson/AM-Blockchain/blob/main/images/AMBlockchain_Etherscan_ContractQuery.jpg" width="800">
+ <img src="https://github.com/eedinson/AM-Blockchain/blob/main/images/AMBlockchain_Etherscan_ContractQuery.jpg" width="700">
 </p>
 
 <p align="right">(<a href="#top">back to top</a>)</p>

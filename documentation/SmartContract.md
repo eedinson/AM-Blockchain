@@ -12,8 +12,8 @@ All functions programmed in the smart contract were subsequently tested to ensur
   <summary>Table of Contents</summary>
   <ol>
     <li><a href="#Deploy-contract">Deploy contract</a></li>
-    <li><a href="#1.-Manufacturing-sequence">1. Manufacturing sequence</a></li>
-    <li><a href="#2.-Shipment-to-Sinterer-sequence">2. Shipment to Sinterer sequence</a></li>
+    <li><a href="#1-Manufacturing-sequence">1. Manufacturing sequence</a></li>
+    <li><a href="#2-Shipment-to-Sinterer-sequence">2. Shipment to Sinterer sequence</a></li>
     <li><a href="#II1_AcceptShippingSintererOrder">II1_AcceptShippingSintererOrder</a></li>
     <li><a href="#II2_CompleteShippingSintererOrder">II2_CompleteShippingSintererOrder</a></li>
   </ol>

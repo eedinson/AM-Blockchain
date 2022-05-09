@@ -235,7 +235,7 @@ Shipping request to transport the printed parts back to the manufacturer for fin
 
 
 
-4. Shipment back to Manufacturer sequence
+## 4. Shipment back to Manufacturer sequence
 
 
 
@@ -311,7 +311,7 @@ The manufacturer receives the parts from the shipper and confirms the handover. 
 
 
 
-5. Quality control sequence
+## 5. Quality control sequence
 
 
 

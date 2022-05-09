@@ -91,7 +91,7 @@ Within the AM Blockchain concept, the following aspects are defined:
 **Participants and ethereum addresses**
 * AMChain smart contract
    ```sh
-   0x2D99CFCB3C4672a00124bf1314Ba183bA1765e47
+   0x34A253F8E74460F264A902E305990Df65FA6C5Ce
    ```
 * Manufacturer
    ```sh

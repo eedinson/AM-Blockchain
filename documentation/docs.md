@@ -76,11 +76,11 @@ The presented architecture includes all involved parties, applications and proce
 Zur besseren Verständlichkeit werden nachfolgend auch noch ein UML component sowie ein UML communication diagram der vorgestellten Architektur aufgefürt:
 
 <p align="center">
- <img src="https://github.com/eedinson/AM-Blockchain/blob/main/images/AMBlockchain_Architecture.jpg" width="800">
+ <img src="https://github.com/eedinson/AM-Blockchain/blob/main/images/AMBlockchain_UMLComponentDiagram.jpg" width="800">
 </p>
 
 <p align="center">
- <img src="https://github.com/eedinson/AM-Blockchain/blob/main/images/AMBlockchain_Architecture.jpg" width="800">
+ <img src="https://github.com/eedinson/AM-Blockchain/blob/main/images/AMBlockchain_UMLCommunicationDiagram.jpg" width="800">
 </p>
 
 <br />

@@ -87,7 +87,7 @@ Zur besseren Verständlichkeit werden nachfolgend auch noch ein UML component so
 The following images illustrates the interaction between the individual participants in the manufacturing process within the smart contract once again in great detail in the form of a sequence diagram.
 
 <p align="center">
- <img src="https://github.com/eedinson/AM-Blockchain/blob/main/images/AMBlockchain_SequenceDiagram.jpg" width="800">
+ <img src="https://github.com/eedinson/AM-Blockchain/blob/main/images/AMBlockchain_SequenceDiagram_v2.jpg" width="800">
 </p>
 
 <p align="right">(<a href="#top">back to top</a>)</p>

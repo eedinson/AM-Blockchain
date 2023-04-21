@@ -40,7 +40,7 @@
 
 Title: &ensp;&emsp;&emsp;   Development of a blockchain-based quality assurance concept for a digital additive manufacturing part record<br />
 Authors: &emsp;             Erik Westphal, Benjamin Leiding, Hermann Seitz<br />
-Journal: &nbsp;&emsp;       Virtual and Physical Prototyping<br />
+Journal: &nbsp;&emsp;       Journal of Industrial Information Integration<br />
 DOI: &ensp;&emsp;&emsp;     tbd<br />
 
 <p align="right">(<a href="#top">back to top</a>)</p>

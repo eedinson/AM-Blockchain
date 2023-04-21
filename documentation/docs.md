@@ -73,6 +73,17 @@ The architecture and process flow for implementing digital manufacturing documen
 
 The presented architecture includes all involved parties, applications and processes of the conceptualized digital AM part record as well as their interactions with each other. All parties involved in the value chain are to access the smart contract, the decentralized storage system, and the blockchain via a web application with a frontend. These components and their associated processes are referred to as dApp and digitally connect the manufacturing side with the customer side. The shipping service provider is also integrated into the value chain via this. The parties involved interact with the dApp in different ways.<br />
 <br />
+Zur besseren Verständlichkeit werden nachfolgend auch noch ein UML component sowie ein UML communication diagram der vorgestellten Architektur aufgefürt:
+
+<p align="center">
+ <img src="https://github.com/eedinson/AM-Blockchain/blob/main/images/AMBlockchain_Architecture.jpg" width="800">
+</p>
+
+<p align="center">
+ <img src="https://github.com/eedinson/AM-Blockchain/blob/main/images/AMBlockchain_Architecture.jpg" width="800">
+</p>
+
+<br />
 The following images illustrates the interaction between the individual participants in the manufacturing process within the smart contract once again in great detail in the form of a sequence diagram.
 
 <p align="center">
